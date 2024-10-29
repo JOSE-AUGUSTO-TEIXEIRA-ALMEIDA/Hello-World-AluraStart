@@ -1,0 +1,39 @@
+h1{
+    color:orange;
+}
+
+body {
+    background-color: #305050;
+    color: white;
+    font-family: Roboto;
+    text-align: center;
+}
+
+header {
+    border-bottom: 1px solid grey;
+}
+
+#nome-usuário { 
+    font-weight: bold; 
+}
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
+}
+
+#content-wrap {
+    padding-bottom: 2.5rem;    /* altura do rodapé */
+}
+
+#footer {
+    border-top: 1px solid grey;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 3.5rem;            /* altura do rodapé */
+}
+
+.texto-inglês{ 
+    font-style: italic;
+}
